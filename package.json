@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Sample NextJS App",
   "main": "pages/index.js",
+  "cacheDirectories": [".next/cache"],
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT"
   },
   "repository": {
     "type": "git",
