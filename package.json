@@ -1,0 +1,28 @@
+{
+  "name": "flash",
+  "version": "1.0.0",
+  "description": "Sample NextJS App",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CesarMarcanoQuijada/Flash.git"
+  },
+  "author": "Cesar Marcano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CesarMarcanoQuijada/Flash/issues"
+  },
+  "homepage": "https://github.com/CesarMarcanoQuijada/Flash#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "next": "^10.0.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
