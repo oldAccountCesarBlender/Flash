@@ -15,6 +15,8 @@ export default function Main({ children }) {
     >
       <Head>
         <link rel="shortcut icon" href="/favicon.png" />
+	<title>GitHub Flash</title>
+	<meta name="description" content="Search github profiles" />
       </Head>
       {children}
     </div>
