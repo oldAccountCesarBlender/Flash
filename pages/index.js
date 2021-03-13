@@ -8,7 +8,7 @@ import { useContext, useState } from "react";
 import { GlobalContext } from "../src/provider/context";
 
 export default function Index() {
-  const [userName, setUserName] = useState("");
+  const [userName, setUserName] = useState("CesarMarcanoQuijada");
   const context = useContext(GlobalContext);
 
   return (
